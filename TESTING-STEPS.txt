@@ -1,0 +1,29 @@
+BOXUP LOCAL TESTING STEPS
+
+1. Open XAMPP Control Panel.
+2. Start Apache.
+3. Put this whole Boxup-updated folder inside:
+   C:\xampp\htdocs
+4. Rename the folder to:
+   boxup
+5. Open this URL in your browser:
+   http://localhost/boxup/
+6. Test the contact form on:
+   http://localhost/boxup/contact.html
+7. Test the newsletter form in the footer.
+8. Check saved submissions inside:
+   C:\xampp\htdocs\boxup\storage
+
+Expected files after testing:
+
+- contact-submissions.jsonl
+- newsletter-signups.jsonl
+- rate-contact-...json
+- rate-newsletter-...json
+
+Notes:
+
+- Opening index.html directly is fine for frontend viewing.
+- Backend forms require Apache/PHP and must be opened through http://localhost/boxup/.
+- PHP is available through XAMPP at:
+  C:\xampp\php\php.exe
